@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+
+% Packages included
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{tikz, pgf}
+\usepackage{capt-of}
+\usetikzlibrary{quotes,angles,arrows}
+\usepackage{mathrsfs}
+\usepackage{float}
+\usepackage[nottoc]{tocbibind}
+\usepackage{mathtools}
+
+% Theorems, Definitions, Corollaries etc,
+%\theoremstyle{definition}
+%\newtheorem{definition}[section]{Definition}
+
+%%\theoremstyle{theorem}
+%%\newtheorem{theorem}[section]{Theorem}
+
+\theoremstyle{theorem}
+\newtheorem{theorem}{Theorem}[section]
+
+\theoremstyle{theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+
+%%\theoremstyle{definition}
+%%\newtheorem{example}[section]{Example}
+ 
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\theoremstyle{note}
+\newtheorem*{note}{Note}
+
+\theoremstyle{plain}
+\newtheorem{definition}[theorem]{Definition}% reset theorem numbering for each chapter
+
+\theoremstyle{definition}
+\newtheorem{example}[theorem]{Example}
+
+\linespread{1.1}
+
+\usepackage[margin=3.5cm]{geometry}
+
+\begin{document}
+
+\title{Cryptography-B coursework: Paper review}
+\author{Manan Vaswani}
+
+\maketitle
+
+\section{Introduction}
+At the CRYPTO2012 conference, Mike Rosulek raised an interesting question regarding black-box constructions in Cryptography, which he discussed in his paper ``Must you know the code of $f$ to securely compute $f$?"  \cite{C:Rosulek12a}. This paper looks at the possibility of using functions without having to compute the actual code of such a function in Multi-Party Communications.
+
+\textcolor{red}{In their 1989 paper \cite{STOC:ImpRud89}, Impagliazzo and Rudich asked the important question "When do black-box constructions actually exist?". Their results showed that for random permutations ...}
+
+Black-box constructions in cryptography are those that rely only on the input and output behaviour of their components without actually knowing the details and construction of the components. They are widely used in cryptography due to the fact that they are highly practical, efficient and modular. Secure Multi-Party Computation(MPC) allows mutually distrusting parties to compute a function $f$ on its shared inputs. One non-black box step that is used in all secure MPC communications is the evaluation of this function $f$. The function is expressed as a low-level circuit, and then evaluated gate by gate on the inputs provided. This means that the complexity of the communication protocol is directly dependent on the circuit complexity of the function. However, this step is unavoidable for most general purpose MPC, but the paper looks at exploring for which special purpose secure communication tasks it would be possible to have a true black box construction.
+
+\textcolor{red}{Interestingly, this topic has not been as widely researched as one would expect due to ??}
+
+\section{Definitions}
+\subsection{Functionally Black Box}
+For a general-purpose MPC with a fixed functionality $f$, the protocol directly depends on $f$ anyway, so the protocol could simply have the circuit for $f$ hard-coded and use that every time. Instead, the author models a protocol as a pair of oracle machines that is instantiated with any functionality $f$ that is taken from a much larger class of functionalities $\mathcal{C}$, and then emulates a functionality related to $f$. If this class of functionalities is particularly large, the protocol cannot construct the circuit representations of all the related functionalities. With this, he introduces the definition of a functionally-black box protocol.
+
+$\mathcal{C}$ is a class of functions. $\mathcal{F}$ is an ideal functionality implemented as an oracle machine. A \textbf{functionally-black-box (FBB)} protocol for $\mathcal{F}^\mathcal{C}$ (i.e  $\mathcal{F}$ instantiated with $\mathcal{C}$) is a pair of interactive oracle machines $(\pi_A, \pi_B)$  if for all $f \in \mathcal{C}$, the protocol $(\pi^f_A, \pi^f_B)$ is a secure protocol for the ideal functionality $\mathcal{F}^f$. This definition simply models a secure protocol that uses its functionality in a black-box way. For an FBB protocol, the adversaries may have access to an explicit representation of the function $f$ that the protocol is instantiated with, hence there is no compromise on the security condition being observed, but the honest parties only use a black-box definition of the function. The intent of the definition above is to characterize the efficiency of the honest parties, without affecting any security conditions.
+
+% Possible example
+An observation is that the set $\mathcal{C}$ must not be learnable in the sense that the circuit representations of  $f \in \mathcal{C}$ can be obtained by repeated interactions between the honest parties, or with an external oracle. Additionally, for all $f \in \mathcal{C}$, the domain size must be infinite, as for a constant-sized domain, $\mathcal{C}$ would be learnable by exhaustively querying the functions.
+% Assume C is not learnable, and explain why
+
+\subsection{2-Hiding Autoreducible}
+
+\section{Proof Outline}
+
+\section{Positive Example}
+
+\section{Negative Example}
+
+\section{Results for Malicious Security}
+
+\section{Zero-Knowledge Proofs}
+
+\section{Related Works}
+\cite{C:IKPSY16}
+
+
+\bibliographystyle{unsrt}
+\bibliography{cryptobib/abbrev3,cryptobib/crypto}
+
+\end{document}
