@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.13)  26 DEC 2018 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.13)  29 JAN 2019 02:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,16 +972,16 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 51.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./crypto-report.bbl [2]) [3] (./crypto-report.aux) ) 
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./crypto-report.bbl [3]) [4] (./crypto-report.aux) ) 
 Here is how much of TeX's memory you used:
- 14396 strings out of 492995
- 282230 string characters out of 6132703
- 322567 words of memory out of 5000000
- 17639 multiletter control sequences out of 15000+600000
- 12050 words of font info for 47 fonts, out of 8000000 for 9000
+ 14397 strings out of 492995
+ 282245 string characters out of 6132703
+ 323566 words of memory out of 5000000
+ 17640 multiletter control sequences out of 15000+600000
+ 12357 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,56p,991b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,56p,1208b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/tex
@@ -993,10 +993,10 @@ st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on crypto-report.pdf (3 pages, 121210 bytes).
+Output written on crypto-report.pdf (4 pages, 126686 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
