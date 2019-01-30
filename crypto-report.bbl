@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{C:Rosulek12a}
 Mike Rosulek.
@@ -12,11 +12,69 @@ Russell Impagliazzo and Steven Rudich.
 \newblock Limits on the provable consequences of one-way permutations.
 \newblock In {\em 21st ACM STOC}, pages 44--61. {ACM} Press, May 1989.
 
+\bibitem{EPRINT:HIKLP10}
+Iftach Haitner, Yuval Ishai, Eyal Kushilevitz, Yehuda Lindell, and Erez
+  Petrank.
+\newblock Black-box constructions of protocols for secure computation.
+\newblock Cryptology ePrint Archive, Report 2010/164, 2010.
+\newblock \url{http://eprint.iacr.org/2010/164}.
+
+\bibitem{TCC:PasWee09}
+Rafael Pass and Hoeteck Wee.
+\newblock Black-box constructions of two-party protocols from one-way
+  functions.
+\newblock In Omer Reingold, editor, {\em TCC~2009}, volume 5444 of {\em
+  {LNCS}}, pages 403--418. Springer, Heidelberg, March 2009.
+
+\bibitem{FOCS:BuhForTor95}
+Harry Buhrman, Lance Fortnow, and Leen Torenvliet.
+\newblock Using autoreducibility to separate complexity classes.
+\newblock In {\em 36th FOCS}, pages 520--527. {IEEE} Computer Society Press,
+  October 1995.
+
+\bibitem{STOC:Kilian88}
+Joe Kilian.
+\newblock Founding cryptography on oblivious transfer.
+\newblock In {\em 20th ACM STOC}, pages 20--31. {ACM} Press, May 1988.
+
+\bibitem{C:IshPraSah08}
+Yuval Ishai, Manoj Prabhakaran, and Amit Sahai.
+\newblock Founding cryptography on oblivious transfer - efficiently.
+\newblock In David Wagner, editor, {\em CRYPTO~2008}, volume 5157 of {\em
+  {LNCS}}, pages 572--591. Springer, Heidelberg, August 2008.
+
+\bibitem{JC:BonLynSha04}
+Dan Boneh, Ben Lynn, and Hovav Shacham.
+\newblock Short signatures from the {Weil} pairing.
+\newblock {\em Journal of Cryptology}, 17(4):297--319, September 2004.
+
+\bibitem{STOC:GolMicWig87}
+Oded Goldreich, Silvio Micali, and Avi Wigderson.
+\newblock How to play any mental game or {A} completeness theorem for protocols
+  with honest majority.
+\newblock In Alfred Aho, editor, {\em 19th ACM STOC}, pages 218--229. {ACM}
+  Press, May 1987.
+
+\bibitem{C:BMTZ17}
+Christian Badertscher, Ueli Maurer, Daniel Tschudi, and Vassilis Zikas.
+\newblock Bitcoin as a transaction ledger: A composable treatment.
+\newblock In Jonathan Katz and Hovav Shacham, editors, {\em CRYPTO~2017,
+  Part~I}, volume 10401 of {\em {LNCS}}, pages 324--356. Springer, Heidelberg,
+  August 2017.
+
 \bibitem{C:IKPSY16}
 Yuval Ishai, Eyal Kushilevitz, Manoj Prabhakaran, Amit Sahai, and Ching-Hua Yu.
 \newblock Secure protocol transformations.
 \newblock In Matthew Robshaw and Jonathan Katz, editors, {\em CRYPTO~2016,
   Part~II}, volume 9815 of {\em {LNCS}}, pages 430--458. Springer, Heidelberg,
   August 2016.
+
+\bibitem{ICALP:CCGZ17}
+Ran Cohen, Sandro Coretti, Juan~A. Garay, and Vassilis Zikas.
+\newblock Round-preserving parallel composition of probabilistic-termination
+  cryptographic protocols.
+\newblock In Ioannis Chatzigiannakis, Piotr Indyk, Fabian Kuhn, and Anca
+  Muscholl, editors, {\em ICALP 2017}, volume~80 of {\em {LIPIcs}}, pages
+  37:1--37:15. Schloss Dagstuhl, July 2017.
 
 \end{thebibliography}
